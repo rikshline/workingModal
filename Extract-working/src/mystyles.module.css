@@ -1,0 +1,10 @@
+.clearTag {
+  font-size: 12px;
+  line-height: 20px;
+  color: blue;
+  cursor: pointer;
+}
+
+.tag {
+  width: 20px;
+}

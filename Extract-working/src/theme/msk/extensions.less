@@ -1,0 +1,28 @@
+// Menu
+// ---
+.ant-menu-horizontal {
+  &:not(.ant-menu-dark) {
+    > .ant-menu-item,
+    > .ant-menu-submenu {
+      &::after {
+        border-bottom-width: 5px !important;
+      }
+      &:hover,
+      &-active,
+      &-open,
+      &-selected {
+        &::after {
+          border-bottom-width: 5px;
+        }
+      }
+    }
+  }
+}
+
+.ant-card-meta-detail {
+  width: 100%;
+}
+
+.ant-card-head {
+  font-weight: normal;
+}
